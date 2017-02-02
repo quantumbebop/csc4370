@@ -1,0 +1,15 @@
+Problem:
+
+- User/Client (Cory) has a choose-your-own adventure story that needs to be interactive. The interface for the story should be engaging and simple to use.
+- We, the Designers/Developers (Cory, Shannon, Kathleen), will use HTML and CSS to meet these goals.
+
+Design: 
+
+- We will create a mockup of the general layout for the story pages.
+- We will use HTML to build pages with the existing story text.
+- We will use CSS to style the text, introduce animations, create background imagery for the story, and maintain a consistent style between pages. 
+
+Testing:
+
+- We will traverse the story from page to page and ensure that all links, animations, etc. work as expected.
+- We will use the W3C validation services to make sure all HTML and CSS files are W3C compliant.

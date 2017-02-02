@@ -1,0 +1,4 @@
+Ideas:
+
+- CSS styles for emphasis on certain words (like sounds effects)(Bolded, larger, smaller...).
+- Animations for dramatic effect (ex. When the zombie dog barks, the bark noise text vibrates).
