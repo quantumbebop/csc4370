@@ -1,0 +1,199 @@
+/* Styling for container div elements */
+
+div.mainbox {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 90%;
+	height: 85%;
+	opacity: 0.8;
+	border-radius: 10px;
+	text-align: center;
+	overflow: auto;
+	-webkit-animation: pulse 10s;
+	animation: pulse 10s infinite;
+	animation-direction: alternate;
+}
+
+div.textbox {
+	position: absolute;
+	margin: auto;
+	padding: 1%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 80%;
+	height: 80%;
+	background-color: white;
+	opacity: 0.8;
+	border-radius: 10px;
+	overflow: auto;
+}
+
+/* Styling for text */
+
+p {
+	font-size: 1em;
+	font-family: sans-serif;
+}
+
+/* Styling for Links */
+
+a {
+	text-decoration: none;
+	color: #002080;
+	font-size: 1em;
+	font-family: sans-serif;
+	padding-top: 2%;
+	display: inline-block;
+
+}
+
+a:visited {
+	color: #002080;
+}
+
+a:hover {
+	color: #990000;
+}
+
+.floatleft {
+	float: left;
+}
+
+.floatright {
+	float: right;
+}
+
+/* Special Styles */
+
+.emphasis {
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.zombiedog {
+	color: #CC0000;
+}
+
+.smallfont {
+	font-size: 75%;
+}
+
+/* Animation */
+
+/*
+	Colors:
+	Strangers Shadow: #2B3129
+	Happy black: #1F251D
+	Murky Figure: #555854
+	Hiding and Waiting: #727870
+	Fading Hope: #B2B8B0
+*/
+
+
+@-webkit-keyframes pulse {
+	0% {background: #B2B8B0}
+	25% {background: #727870}
+	50% {background: #555854}
+	75% {background: #1F251D}
+	100% {background: #2B3129}
+}
+
+@keyframes pulse {
+	0% {background: #B2B8B0}
+	25% {background: #727870}
+	50% {background: #555854}
+	75% {background: #1F251D}
+	100% {background: #2B3129}
+}
+
+@-webkit-keyframes text {
+	0% {background: #2B3129}
+	50% {background: #B2B8B0}
+	100 {background: #B2B8B0}
+}
+
+@keyframes text {
+	0% {background: #2B3129}
+	50% {background: #B2B8B0}
+	100 {background: #B2B8B0}
+}
+
+/* Bob */
+@-webkit-keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@-webkit-keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+.hvr-bob {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+
+
+
+
+

@@ -1,0 +1,7 @@
+/* Background Stylesheet End */
+
+body {
+	background-image: url("images/ghosttown2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
