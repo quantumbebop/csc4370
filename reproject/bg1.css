@@ -1,0 +1,7 @@
+/* Background Stylesheet 1 */
+
+body {
+	background-image: url("derelict.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}

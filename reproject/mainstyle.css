@@ -1,0 +1,67 @@
+/* Styling for container div elements */
+
+div.mainbox {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 80%;
+	height: 75%;
+	background-color: white;
+	opacity: 0.8;
+	border-radius: 10px;
+	text-align: center;
+	overflow: auto;
+}
+
+div.textbox {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 80%;
+	height: 80%;
+	overflow: auto;
+}
+
+/* Styling for text */
+
+p {
+	font-size: 1em;
+	font-family: sans-serif;
+}
+
+/* Styling for Links */
+
+a {
+	text-decoration: none;
+	color: #002080;
+	font-size: 1em;
+	font-family: sans-serif;
+	padding-top: 2%;
+	display: inline-block;
+
+}
+
+a:visited {
+	color: #002080;
+}
+
+a:hover {
+	color: #990000;
+}
+
+.floatleft {
+	float: left;
+}
+
+.floatright {
+	float: right;
+}
+
+
+
